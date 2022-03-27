@@ -23,6 +23,7 @@ namespace DataAccessLayer
             }
             SqlDataReader dr = komut1.ExecuteReader();
 
+
             while (dr.Read())
             {
                 EntityPersonel ent = new EntityPersonel();
